@@ -674,10 +674,9 @@ div {
 }
 
 #tabel-thedutchstore th, td {
-    padding: 15px;
     text-align: left;
     width: 33.33%;
-    padding: 50px;
+    padding: 30px;
     vertical-align: middle;
 } 
 
@@ -686,7 +685,7 @@ div {
     line-height: 30px;
     color: #f4f4f4;
     font-weight: 400;
-    height: 100px;
+    height: auto;
 }
 
 #tabel-thedutchstore td {
@@ -717,14 +716,6 @@ div {
     display: block;
 }
 
-/*#casestudy-media p {
-    font-size: 18px;
-    line-height: 28px;
-    color: #f4f4f4;
-    font-weight: 300;
-    margin: 0 0 28px 0;
-}*/
-
 #casestudy-content a {
     font-size: 18px;
     line-height: 28px;
@@ -740,38 +731,9 @@ div {
     color: rgba(244, 244, 244, .5);
 }
 
+/* _______________________________________________ MEDIA QUERIES _______________________________________________ */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ________________________________________ MEDIA QUERY */
-
-@media only screen and (max-width: 1900px) {
+@media only screen and (max-width: 1900px) { /*______________________ max-width 1900px ________________________*/
     #projecten-binnen {
         max-width: 100%;
         margin: 0;
@@ -799,37 +761,19 @@ div {
     }
 }
 
-
-
-
-
-
-
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1600px) { /*______________________ max-width 1600px ________________________*/
     #informatie-left {
         padding: 0 30px 0 0;
     }
 }
 
-
-
-
-
-
-
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) { /*______________________ max-width 1440px ________________________*/
     #informatie-left {
         padding: 0 30px 0 0;
     }
 }
 
-
-
-
-
-
-
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300px) { /*______________________ max-width 1300px ________________________*/
     #informatie {
         padding: 0;
     }
@@ -839,10 +783,7 @@ div {
     }
 }
 
-
-
-
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1280px) { /*______________________ max-width 1280px ________________________*/
     #introductie-binnen p {
         font-size: 22px;
         line-height: 40px;
@@ -858,9 +799,7 @@ div {
     }
 }
 
-
-
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) { /*______________________ max-width 1200px ________________________*/
     header {
         position: fixed;
         top: 0;
@@ -1022,11 +961,7 @@ div {
     }
 }
 
-
-
-
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) { /*______________________ max-width 1024px ________________________*/
     #projecten-grid .projecten-grid-item:nth-child(odd) {
         margin: 0 20px 65px 0;
     }
@@ -1045,12 +980,7 @@ div {
     }
 }
 
-
-
-
-
-
-@media only screen and (max-width: 940px) {
+@media only screen and (max-width: 940px) { /*______________________ max-width 940px ________________________*/
     #introductie {
         margin: 156px 0 80px 0;
     }
@@ -1091,16 +1021,7 @@ div {
     }
 }
 
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) { /*______________________ max-width 767px ________________________*/
     body, html {
         height: auto;
     }
@@ -1204,6 +1125,21 @@ div {
         margin: 0 0 20px 0;
     }
 
+    .casestudy-h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #casestudy-content a {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #tabel-thedutchstore th {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     #casestudy-content p:last-child {
         margin: 0;
     }
@@ -1218,6 +1154,11 @@ div {
     }
 
     #casestudy-media .media-image span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #casestudy-media #casestudy-tabel span {
         font-size: 16px;
         line-height: 24px;
     }
@@ -1267,6 +1208,10 @@ div {
         margin: 0 0 60px 0;
     }
 
+    #tabel-thedutchstore th, td {
+        padding: 28px 14px 28px auto;
+    } 
+
     footer {
         bottom: 50px;
     }
@@ -1289,16 +1234,24 @@ div {
     }
 }
 
+@media only screen and (max-width: 681px) {
+    #tabel-thedutchstore th, td {
+        padding: 5px 5px 5px 5px;
+    } 
+
+    #tabel-thedutchstore th {
+        font-size: 14px;
+        line-height: 22px;
+}
+
+    #tabel-thedutchstore td {
+        font-size: 14px;
+        line-height: 22px;
+}
+}
 
 
-
-
-
-
-
-
-
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) { /*______________________ max-width 640px ________________________*/
     header {
         background-color: rgba(17, 17, 17,.8);
         height: 65px;
