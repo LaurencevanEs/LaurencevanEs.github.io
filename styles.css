@@ -1320,6 +1320,11 @@ div {
         display: block;
     }
 
+    #casestudy-media .media-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
     #gerelateerde-projecten {
         padding: 40px 0 20px 0;
         margin: 40px 0 0 0;
