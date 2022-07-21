@@ -1232,6 +1232,15 @@ div {
     #social a, #social a:active, #social a:focus, #social a:visited {
         font-size: 16px;
     }
+
+    #informatie-left-content .vaardigheden .vaardigheden-lijst {
+    	flex-direction: column;
+
+    }
+
+    #informatie-left-content .vaardigheden .vaardigheden-lijst ul {
+    	margin: 0 0 15px 0;
+    }
 }
 
 @media only screen and (max-width: 681px) {
