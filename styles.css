@@ -1241,6 +1241,11 @@ div {
     #informatie-left-content .vaardigheden .vaardigheden-lijst ul {
     	margin: 0 0 15px 0;
     }
+
+    #informatie-left-content .vaardigheden .vaardigheden-lijst ul li {
+    	font-size: 16px;
+    	line-height: 24px;
+    }
 }
 
 @media only screen and (max-width: 681px) {
@@ -1379,5 +1384,12 @@ div {
 
     #social .mobile {
         display: block;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+
+nav ul li a {
+        text-transform: capitalize;
     }
 }
