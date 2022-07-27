@@ -671,6 +671,7 @@ div {
     font-family: 'Lato', sans-serif;
     border-collapse: collapse;
     margin: 0;
+    overflow-x: scroll;
 }
 
 #tabel-thedutchstore th, td {
